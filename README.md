@@ -6,6 +6,7 @@
 
 厂商报送期为自然月的序号。数据 source 为 direct、default 或 verified；同厂产品与阶段有后知 verified 时可替代 default，不能叠加。外包阶段见 stage-links。能耗为 kWh，排放因子为每 kWh 的克数，共同基期与各客户合同匹配。客户选择 grid 或 certificate，不允许通过把未匹配凭证视为负排放来凑足可声明总量。
 凭证用量须对应工厂期、产品证据和客户用途。signed 是签发占用，reserved 是已锁定待签。作废凭证对当前合格性不再有效，已签的引用仍须列为待复核证据。客户份额仅对授予该客户的记录披露。
+line-observations 是每轮生产观察，sample_floor 以产品与阶段下的独立观察条目计。common-meters 只报未计入 energy 行的公用段电量，allocation_basis 由供方合同登记，空值表示未获准分摊。run_hours 以当期同产线的有效工时为口径。公用电不随订单自动取得绿电凭证权益。
 
 CSV 使用 UTF-8、逗号分隔，无引号与内嵌换行。未提供的字段是空字符串，作为关系值的 `-` 表示不适用。多值字段用竖线分隔，数值和日期单位见业务约定。
 

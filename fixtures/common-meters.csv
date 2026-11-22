@@ -1,0 +1,4 @@
+meter,plant,phase,line,month,auxiliary_kwh,allocation_basis,allowed_products,known_month
+U1,A,forming,F1,1,190,run_hours,X|Y,1
+U2,A,forming,F1,2,240,run_hours,X|Y,2
+U3,B,coat,G2,2,88,,,3

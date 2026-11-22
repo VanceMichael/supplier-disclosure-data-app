@@ -64,6 +64,28 @@
       "plant",
       "phase",
       "method_group"
+    ],
+    "line-observations": [
+      "observation",
+      "plant",
+      "phase",
+      "month",
+      "product",
+      "line",
+      "run_hours",
+      "quantity_kg",
+      "known_month"
+    ],
+    "common-meters": [
+      "meter",
+      "plant",
+      "phase",
+      "line",
+      "month",
+      "auxiliary_kwh",
+      "allocation_basis",
+      "allowed_products",
+      "known_month"
     ]
   },
   "links": [
@@ -96,6 +118,12 @@
       "client",
       "contracts",
       "client"
+    ],
+    [
+      "line-observations",
+      "product",
+      "stage-links",
+      "product"
     ]
   ]
 }

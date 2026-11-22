@@ -1,0 +1,10 @@
+observation,plant,phase,month,product,line,run_hours,quantity_kg,known_month
+Q1,A,forming,1,X,F1,24,660,1
+Q2,A,forming,1,X,F1,20,540,1
+Q3,A,forming,1,Y,F1,21,490,1
+Q4,A,forming,1,Y,F1,15,310,1
+Q5,A,forming,2,X,F1,21,550,2
+Q6,A,forming,2,X,F1,17,450,2
+Q7,A,forming,2,Y,F1,27,940,2
+Q8,A,forming,2,Y,F1,20,560,2
+Q9,B,coat,2,X,G2,13,440,3
