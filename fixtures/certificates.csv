@@ -1,0 +1,5 @@
+certificate,plant,period,kwh,known_month,status
+R1,A,2,1200,2,active
+R2,A,2,600,2,active
+R2,A,2,600,3,revoked
+R3,A,1,700,1,active

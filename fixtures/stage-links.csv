@@ -1,0 +1,4 @@
+product,ordering,plant,phase,method_group
+X,1,A,forming,direct
+X,2,B,coat,subcontract
+Y,1,A,forming,direct

@@ -1,0 +1,4 @@
+client,baseline_month,allowed_phases,sample_floor
+C1,1,forming|coat,2
+C2,1,forming|coat,2
+C3,1,forming,2

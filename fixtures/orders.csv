@@ -1,0 +1,5 @@
+delivery,client,product,month,kg,method,defaults,claim_date
+D1,C1,X,2,650,certificate,false,2
+D2,C2,X,2,300,grid,true,2
+D3,C1,Y,2,900,certificate,true,3
+D4,C3,X,2,250,certificate,false,3

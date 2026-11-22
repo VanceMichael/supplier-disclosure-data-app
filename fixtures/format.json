@@ -1,0 +1,101 @@
+{
+  "tables": {
+    "energy": [
+      "record",
+      "plant",
+      "phase",
+      "month",
+      "product",
+      "kg",
+      "kwh",
+      "known_month",
+      "source"
+    ],
+    "factors": [
+      "name",
+      "plant",
+      "phase",
+      "from",
+      "to",
+      "method",
+      "grams_per_kwh"
+    ],
+    "certificates": [
+      "certificate",
+      "plant",
+      "period",
+      "kwh",
+      "known_month",
+      "status"
+    ],
+    "orders": [
+      "delivery",
+      "client",
+      "product",
+      "month",
+      "kg",
+      "method",
+      "defaults",
+      "claim_date"
+    ],
+    "claims": [
+      "claim",
+      "delivery",
+      "certificate",
+      "kwh",
+      "known_month",
+      "state"
+    ],
+    "contracts": [
+      "client",
+      "baseline_month",
+      "allowed_phases",
+      "sample_floor"
+    ],
+    "product-mix": [
+      "period",
+      "customer",
+      "x_kg",
+      "y_kg"
+    ],
+    "stage-links": [
+      "product",
+      "ordering",
+      "plant",
+      "phase",
+      "method_group"
+    ]
+  },
+  "links": [
+    [
+      "claims",
+      "delivery",
+      "orders",
+      "delivery"
+    ],
+    [
+      "claims",
+      "certificate",
+      "certificates",
+      "certificate"
+    ],
+    [
+      "energy",
+      "phase",
+      "stage-links",
+      "phase"
+    ],
+    [
+      "product-mix",
+      "customer",
+      "contracts",
+      "client"
+    ],
+    [
+      "orders",
+      "client",
+      "contracts",
+      "client"
+    ]
+  ]
+}

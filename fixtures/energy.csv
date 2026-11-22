@@ -1,0 +1,7 @@
+record,plant,phase,month,product,kg,kwh,known_month,source
+E1,A,forming,1,X,1200,2300,1,direct
+E2,A,forming,1,Y,800,1500,1,direct
+E3,A,forming,2,X,1000,1800,2,direct
+E4,A,forming,2,Y,1500,2500,2,direct
+E5,B,coat,2,X,1000,900,2,default
+E6,B,coat,2,X,1000,1100,3,verified

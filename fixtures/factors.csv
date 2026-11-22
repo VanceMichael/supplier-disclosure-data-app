@@ -1,0 +1,5 @@
+name,plant,phase,from,to,method,grams_per_kwh
+G1,A,forming,1,1,grid,601
+G2,A,forming,2,9,grid,520
+G3,B,coat,1,9,grid,720
+M1,A,forming,1,9,certificate,45

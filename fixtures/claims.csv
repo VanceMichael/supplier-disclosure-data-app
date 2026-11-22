@@ -1,0 +1,5 @@
+claim,delivery,certificate,kwh,known_month,state
+K1,D1,R1,700,2,signed
+K2,D1,R2,300,2,signed
+K3,D3,R1,400,2,reserved
+K4,D4,R2,300,3,requested
