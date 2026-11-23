@@ -1,5 +1,5 @@
 {
-  "name": "local-data-review",
+  "name": "green-procurement-disclosure",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -8,6 +8,11 @@
   },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "ingest": "node src/cli.mjs ingest",
+    "disclosure": "node src/cli.mjs disclosure",
+    "baseline": "node src/cli.mjs baseline",
+    "revocation": "node src/cli.mjs revocation",
+    "serve": "node src/server.mjs"
   }
 }
